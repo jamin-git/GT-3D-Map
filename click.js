@@ -9,8 +9,9 @@
         // console.log("clicked!");
         Swal.fire({
             title: 'The Culc',
-            imageUrl: 'Resources/test.jpg',
-            imageAlt: 'Test Image'
+            text: 'A place crowded with people studying',
+            imageUrl: 'Resources/culcTest.png',
+            imageAlt: 'Culc AI'
         });
       });
     }
