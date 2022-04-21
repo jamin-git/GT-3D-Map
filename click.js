@@ -8,6 +8,9 @@
       this.el.addEventListener('click', function () {
         // console.log("clicked!");
         Swal.fire({
+          customClass: {
+            
+          },
             title: 'The Culc',
             text: 'A lit building surrounded by people on a dark night',
             imageUrl: 'Resources/Culc.png',
