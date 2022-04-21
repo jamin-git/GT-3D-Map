@@ -9,9 +9,10 @@
         // console.log("clicked!");
         Swal.fire({
             title: 'The Culc',
-            text: 'A place crowded with people studying',
-            imageUrl: 'Resources/culcTest.png',
-            imageAlt: 'Culc AI'
+            text: 'A lit building surrounded by people on a dark night',
+            imageUrl: 'Resources/Culc.png',
+            imageAlt: 'Culc AI',
+            width: "75%"
         });
       });
     }
@@ -90,8 +91,10 @@
         // console.log("clicked!");
         Swal.fire({
             title: 'Klaus',
-            imageUrl: 'Resources/test.jpg',
-            imageAlt: 'Test Image'
+            text: 'The smells of computing',
+            imageUrl: 'Resources/Klaus.png',
+            imageAlt: 'Klaus AI',
+            width: "50%"
         });
       });
     }
@@ -106,8 +109,10 @@
         // console.log("clicked!");
         Swal.fire({
             title: 'Kendeda',
-            imageUrl: 'Resources/test.jpg',
-            imageAlt: 'Test Image'
+            text: 'Green and Natural Vibrations',
+            imageUrl: 'Resources/Kendeda.png',
+            imageAlt: 'Kendeda AI',
+            width: "50%"
         });
       });
     }
@@ -122,8 +127,10 @@
         // console.log("clicked!");
         Swal.fire({
             title: 'Tech Green',
-            imageUrl: 'Resources/test.jpg',
-            imageAlt: 'Test Image'
+            text: "Green Oasis of the City",
+            imageUrl: 'Resources/techGreen.png',
+            imageAlt: 'Tech Green',
+            width: "50%"
         });
       });
     }
