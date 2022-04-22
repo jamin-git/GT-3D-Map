@@ -1,21 +1,43 @@
 // Registering Components as Clickable
 
+AFRAME.registerComponent("overlay", {
+  dependencies: ['material'],
+  init: function () {
+    this.el.sceneEl.renderer.sortObjects = true;
+    this.el.object3D.renderOrder = 100;
+    this.el.components.material.material.depthTest = false;
+    this.el.addEventListener('click', function () {
+      Swal.fire({
+        imageUrl: 'Resources/Welcome.png',
+        imageAlt: 'Welcome Image',
+        width: "80%",
+        backdrop: "rgba(1, 1, 1, .99)"
+      });
+    });
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+        Swal.fire({
+          imageUrl: 'Resources/Welcome.png',
+          imageAlt: 'Welcome Image',
+          width: "80%",
+          backdrop: "rgba(1, 1, 1, .99)"
+        });
+});
+
+
   AFRAME.registerComponent('culc', {
     schema: {
       default: ''
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        // console.log("clicked!");
         Swal.fire({
-          customClass: {
-            
-          },
-            title: 'The Culc',
-            text: 'A lit building surrounded by people on a dark night',
-            imageUrl: 'Resources/Culc.png',
+            imageUrl: 'Resources/AI/CulcG.png',
             imageAlt: 'Culc AI',
-            width: "75%"
+            width: "80%",
+            backdrop: "rgba(1, 1, 1, .8)"
         });
       });
     }
@@ -27,7 +49,6 @@
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        // console.log("clicked!");
         Swal.fire({
             title: 'Skiles',
             imageUrl: 'Resources/test.jpg',
@@ -43,7 +64,6 @@
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        // console.log("clicked!");
         Swal.fire({
             title: 'The CRC',
             imageUrl: 'Resources/test.jpg',
@@ -59,7 +79,6 @@
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        // console.log("clicked!");
         Swal.fire({
             title: 'NAV',
             imageUrl: 'Resources/test.jpg',
@@ -75,7 +94,6 @@
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        // console.log("clicked!");
         Swal.fire({
             title: 'Exhibition Hall',
             imageUrl: 'Resources/test.jpg',
@@ -91,13 +109,11 @@
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        // console.log("clicked!");
         Swal.fire({
-            title: 'Klaus',
-            text: 'The smells of computing',
-            imageUrl: 'Resources/Klaus.png',
+            imageUrl: 'Resources/AI/KlausG2.png',
             imageAlt: 'Klaus AI',
-            width: "50%"
+            width: "80%",
+            backdrop: "rgba(1, 1, 1, .8)"
         });
       });
     }
@@ -109,13 +125,11 @@
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        // console.log("clicked!");
         Swal.fire({
-            title: 'Kendeda',
-            text: 'Green and Natural Vibrations',
-            imageUrl: 'Resources/Kendeda.png',
+            imageUrl: 'Resources/AI/KendedaG.png',
             imageAlt: 'Kendeda AI',
-            width: "50%"
+            width: "80%",
+            backdrop: "rgba(1, 1, 1, .8)"
         });
       });
     }
@@ -127,7 +141,6 @@
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        // console.log("clicked!");
         Swal.fire({
             title: 'Tech Green',
             text: "Green Oasis of the City",
@@ -145,7 +158,6 @@
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        // console.log("clicked!");
         Swal.fire({
             title: 'Bobby Dodd',
             imageUrl: 'Resources/test.jpg',
