@@ -1,5 +1,14 @@
 // Registering Components as Clickable
 
+var culc = [
+  { src: 'Resources/AI/Culc1.png'},
+  { src: 'Resources/AI/Culc2.png'},
+]
+var kendeda = [
+  { src: 'Resources/AI/Kendeda1.png'},
+  { src: 'Resources/AI/Kendeda2.png'},
+]
+
 AFRAME.registerComponent("overlay", {
   dependencies: ['material'],
   init: function () {
@@ -27,18 +36,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+
   AFRAME.registerComponent('culc', {
     schema: {
       default: ''
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Swal.fire({
-            imageUrl: 'Resources/AI/CulcG.png',
-            imageAlt: 'Culc AI',
-            width: "80%",
-            backdrop: "rgba(1, 1, 1, .8)"
-        });
+        Spotlight.show(culc);
       });
     }
   });
@@ -49,11 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Swal.fire({
-            title: 'Skiles',
-            imageUrl: 'Resources/test.jpg',
-            imageAlt: 'Test Image'
-        });
+        Spotlight.show(culc);
       });
     }
   });
@@ -64,11 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Swal.fire({
-            title: 'The CRC',
-            imageUrl: 'Resources/test.jpg',
-            imageAlt: 'Test Image'
-        });
+        Spotlight.show(culc);
       });
     }
   });
@@ -79,11 +76,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Swal.fire({
-            title: 'NAV',
-            imageUrl: 'Resources/test.jpg',
-            imageAlt: 'Test Image'
-        });
+        Spotlight.show(culc);
       });
     }
   });
@@ -94,11 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Swal.fire({
-            title: 'Exhibition Hall',
-            imageUrl: 'Resources/test.jpg',
-            imageAlt: 'Test Image'
-        });
+        Spotlight.show(culc);
       });
     }
   });
@@ -109,12 +98,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Swal.fire({
-            imageUrl: 'Resources/AI/KlausG2.png',
-            imageAlt: 'Klaus AI',
-            width: "80%",
-            backdrop: "rgba(1, 1, 1, .8)"
-        });
+        Spotlight.show(culc);
       });
     }
   });
@@ -125,12 +109,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Swal.fire({
-            imageUrl: 'Resources/AI/KendedaG.png',
-            imageAlt: 'Kendeda AI',
-            width: "80%",
-            backdrop: "rgba(1, 1, 1, .8)"
-        });
+        Spotlight.show(kendeda);
       });
     }
   });
@@ -141,13 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Swal.fire({
-            title: 'Tech Green',
-            text: "Green Oasis of the City",
-            imageUrl: 'Resources/techGreen.png',
-            imageAlt: 'Tech Green',
-            width: "50%"
-        });
+        Spotlight.show(culc);
       });
     }
   });
@@ -158,12 +131,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Swal.fire({
-            title: 'Bobby Dodd',
-            imageUrl: 'Resources/test.jpg',
-            imageAlt: 'Test Image'
-        });
+        Spotlight.show(culc);
       });
     }
   });
-
