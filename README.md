@@ -1,3 +1,3 @@
-# GT-3D-Map
+# Re-Imagine Georgia Tech
 
-https://jamin-git.github.io/GT-3D-Map/
+https://jamin-git.github.io/ReImagine-Georgia-Tech/
