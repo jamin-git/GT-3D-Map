@@ -4,9 +4,37 @@ var culc = [
   { src: 'Resources/AI/Culc1.png'},
   { src: 'Resources/AI/Culc2.png'},
 ]
+var skiles = [
+  { src: 'Resources/AI/skiles1.png'},
+  { src: 'Resources/AI/skiles2.png'},
+]
+var crc = [
+  { src: 'Resources/AI/crc1.png'},
+  { src: 'Resources/AI/crc2.png'},
+]
+var nav = [
+  { src: 'Resources/AI/nav1.png'},
+  { src: 'Resources/AI/nav2.png'},
+]
+var ehall = [
+  { src: 'Resources/AI/ehall1.png'},
+  { src: 'Resources/AI/ehall2.png'},
+]
+var klaus = [
+  { src: 'Resources/AI/klaus1.png'},
+  { src: 'Resources/AI/klaus2.png'},
+]
 var kendeda = [
   { src: 'Resources/AI/Kendeda1.png'},
   { src: 'Resources/AI/Kendeda2.png'},
+]
+var techgreen = [
+  { src: 'Resources/AI/techgreen1.png'},
+  { src: 'Resources/AI/bobbydodd2.png'},
+]
+var bobbydodd = [
+  { src: 'Resources/AI/bobbydodd1.png'},
+  { src: 'Resources/AI/bobbydodd2.png'},
 ]
 
 AFRAME.registerComponent("overlay", {
@@ -54,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Spotlight.show(culc);
+        Spotlight.show(skiles);
       });
     }
   });
@@ -65,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Spotlight.show(culc);
+        Spotlight.show(crc);
       });
     }
   });
@@ -76,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Spotlight.show(culc);
+        Spotlight.show(nav);
       });
     }
   });
@@ -87,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Spotlight.show(culc);
+        Spotlight.show(ehall);
       });
     }
   });
@@ -98,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Spotlight.show(culc);
+        Spotlight.show(klaus);
       });
     }
   });
@@ -120,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Spotlight.show(culc);
+        Spotlight.show(techgreen);
       });
     }
   });
@@ -131,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     init: function () {
       this.el.addEventListener('click', function () {
-        Spotlight.show(culc);
+        Spotlight.show(bobbydodd);
       });
     }
   });
