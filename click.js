@@ -29,12 +29,12 @@ var kendeda = [
   { src: 'Resources/AI/Kendeda2.png'},
 ]
 var techgreen = [
-  { src: 'Resources/AI/techgreen1.png'},
+  { src: 'Resources/AI/TechGreen1.png'},
   { src: 'Resources/AI/techgreen2.png'},
 ]
 var bobbydodd = [
-  { src: 'Resources/AI/Bobbydodd1.png'},
-  { src: 'Resources/AI/Bobbydodd2.png'},
+  { src: 'Resources/AI/BobbyDodd1.png'},
+  { src: 'Resources/AI/BobbyDodd2.png'},
 ]
 
 AFRAME.registerComponent("overlay", {
