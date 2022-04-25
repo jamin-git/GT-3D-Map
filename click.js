@@ -30,7 +30,7 @@ var kendeda = [
 ]
 var techgreen = [
   { src: 'Resources/AI/techgreen1.png'},
-  { src: 'Resources/AI/bobbydodd2.png'},
+  { src: 'Resources/AI/techgreen2.png'},
 ]
 var bobbydodd = [
   { src: 'Resources/AI/bobbydodd1.png'},
