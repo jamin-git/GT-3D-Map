@@ -5,8 +5,8 @@ var culc = [
   { src: 'Resources/AI/Culc2.png'},
 ]
 var skiles = [
-  { src: 'Resources/AI/skiles1.png'},
-  { src: 'Resources/AI/skiles2.png'},
+  { src: 'Resources/AI/Skiles1.png'},
+  { src: 'Resources/AI/Skiles2.png'},
 ]
 var crc = [
   { src: 'Resources/AI/crc1.png'},
@@ -21,8 +21,8 @@ var ehall = [
   { src: 'Resources/AI/ehall2.png'},
 ]
 var klaus = [
-  { src: 'Resources/AI/klaus1.png'},
-  { src: 'Resources/AI/klaus2.png'},
+  { src: 'Resources/AI/Klaus1.png'},
+  { src: 'Resources/AI/Klaus2.png'},
 ]
 var kendeda = [
   { src: 'Resources/AI/Kendeda1.png'},
@@ -33,8 +33,8 @@ var techgreen = [
   { src: 'Resources/AI/techgreen2.png'},
 ]
 var bobbydodd = [
-  { src: 'Resources/AI/bobbydodd1.png'},
-  { src: 'Resources/AI/bobbydodd2.png'},
+  { src: 'Resources/AI/Bobbydodd1.png'},
+  { src: 'Resources/AI/Bobbydodd2.png'},
 ]
 
 AFRAME.registerComponent("overlay", {
