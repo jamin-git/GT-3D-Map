@@ -14,7 +14,7 @@ var crc = [
 ]
 var nav = [
   { src: 'Resources/AI/nav1.png'},
-  { src: 'Resources/AI/nav2.png'},
+  { src: 'Resources/AI/nav3.png'},
 ]
 var ehall = [
   { src: 'Resources/AI/ehall1.png'},
